@@ -18,5 +18,8 @@ namespace EFCore_DBLibrary
 
         //OK  dotnet ef dbcontext scaffold "Server=localhost;Database=AdventureWorks;Trusted_Connection=True;Encrypt=false" Microsoft.EntityFrameworkCore.SqlServer --output-dir Models --context-dir DataAcessLayer
 
+        //OK  dotnet ef dbcontext scaffold "Server=localhost;Database=AdventureWorks;Trusted_Connection=True;Encrypt=false" Microsoft.EntityFrameworkCore.SqlServer -t Person  --output-dir Models --context-dir DataAcessLayer
+
+        // Ref: Scaffold-DbContext "server=localhost;port=3306;user=root;password=mypass;database=sakila"        MySql.Data.EntityFrameworkCore -OutputDir Sakila     -Tables actor, film, film_actor, language -f
     }
 }
