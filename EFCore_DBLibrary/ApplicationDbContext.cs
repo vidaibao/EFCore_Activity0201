@@ -13,7 +13,10 @@ namespace EFCore_DBLibrary
             //intentionally empty.
         }
 
+        // Command: reverse-engineered an existing database
+        //NG Scaffold-DbContext 'DataSource=localhost;Initial Catalog=AdventureWorks;Trusted_Connection=True' Microsoft,EntityFrameWorkCore.SqlServer
 
+        //OK  dotnet ef dbcontext scaffold "Server=localhost;Database=AdventureWorks;Trusted_Connection=True;Encrypt=false" Microsoft.EntityFrameworkCore.SqlServer --output-dir Models --context-dir DataAcessLayer
 
     }
 }
